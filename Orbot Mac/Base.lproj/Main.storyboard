@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -480,7 +480,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="fWb-Uc-yjH">
-                                    <rect key="frame" x="1" y="284" width="448" height="15"/>
+                                    <rect key="frame" x="1" y="283" width="448" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="VCA-Wz-Ene">
@@ -533,7 +533,7 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f9t-K1-QGp">
-                                <rect key="frame" x="377" y="13" width="60" height="32"/>
+                                <rect key="frame" x="378" y="13" width="59" height="32"/>
                                 <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tGJ-pH-erF">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -543,7 +543,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9zr-ao-UgK">
-                                <rect key="frame" x="305" y="13" width="74" height="32"/>
+                                <rect key="frame" x="306" y="13" width="74" height="32"/>
                                 <buttonCell key="cell" type="push" title="Delete" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CZQ-oA-noG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -553,7 +553,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fQs-w1-qcJ">
-                                <rect key="frame" x="231" y="13" width="76" height="32"/>
+                                <rect key="frame" x="232" y="13" width="76" height="32"/>
                                 <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="38w-Ae-iOB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1289,26 +1289,26 @@ Gw
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojE-MZ-wqM">
                                 <rect key="frame" x="0.0" y="0.0" width="492" height="220"/>
                                 <clipView key="contentView" drawsBackground="NO" id="f7k-IN-lEw">
-                                    <rect key="frame" x="0.0" y="0.0" width="477" height="220"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="492" height="220"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView editable="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" findStyle="bar" smartInsertDelete="YES" id="BeW-4a-IF5">
-                                            <rect key="frame" x="0.0" y="0.0" width="477" height="220"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="492" height="220"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="477" height="220"/>
+                                            <size key="minSize" width="492" height="220"/>
                                             <size key="maxSize" width="492" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
                                 </clipView>
-                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="uC1-S0-lLB">
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="uC1-S0-lLB">
                                     <rect key="frame" x="-100" y="-100" width="225" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="nRy-65-9eG">
-                                    <rect key="frame" x="477" y="0.0" width="15" height="220"/>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="nRy-65-9eG">
+                                    <rect key="frame" x="476" y="0.0" width="16" height="220"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
@@ -1334,18 +1334,18 @@ Gw
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CbE-rS-Pmv"/>
-        <segue reference="0QR-9b-55l"/>
+        <segue reference="XVp-Bx-NoT"/>
+        <segue reference="7WH-jy-Jfn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.clockwise" catalog="system" width="14" height="16"/>
-        <image name="chart.bar.doc.horizontal" catalog="system" width="15" height="16"/>
+        <image name="chart.bar.doc.horizontal" catalog="system" width="14" height="16"/>
         <image name="gear.circle" width="11" height="11"/>
-        <image name="key" catalog="system" width="13" height="18"/>
+        <image name="key" catalog="system" width="12" height="18"/>
         <image name="network.badge.shield.half.filled" width="12" height="11"/>
         <image name="orbie.off" width="132" height="125"/>
         <image name="orbie.shadow" width="65" height="9"/>
-        <image name="plus" catalog="system" width="15" height="13"/>
+        <image name="plus" catalog="system" width="14" height="13"/>
         <namedColor name="Black1">
             <color red="0.10999999940395355" green="0.078000001609325409" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

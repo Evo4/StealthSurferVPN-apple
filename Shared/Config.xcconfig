@@ -13,12 +13,12 @@
 // git update-index --skip-worktree Shared/Config.xcconfig
 // git update-index --no-skip-worktree Shared/Config.xcconfig
 
-APP_BUNDLE_ID[config=Debug] =
-EXT_BUNDLE_ID[config=Debug] =
-CONTENT_BLOCKER_BUNDLE_ID[config=Debug] =
-STATUS_WIDGET_BUNDLE_ID[config=Debug] =
-APP_GROUP[config=Debug] =
-DEVELOPMENT_TEAM[config=Debug] =
+APP_BUNDLE_ID[config=Debug] = com.telquel.ios.testing1
+EXT_BUNDLE_ID[config=Debug] = com.telquel.ios.testing1.ext
+CONTENT_BLOCKER_BUNDLE_ID[config=Debug] = com.telquel.ios.testing1.ContentBlocker
+STATUS_WIDGET_BUNDLE_ID[config=Debug] = com.telquel.ios.testing1.status
+APP_GROUP[config=Debug] = group.com.telquel.ios.testing1
+DEVELOPMENT_TEAM[config=Debug] = MV2983RC78
 CODE_SIGN_IDENTITY[config=Debug] =
 APP_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
 EXT_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
@@ -27,12 +27,12 @@ STATUS_WIDGET_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
 APP_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 EXT_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 
-APP_BUNDLE_ID[config=Release] = org.torproject.orbot
-EXT_BUNDLE_ID[config=Release] = org.torproject.orbot.ext
-CONTENT_BLOCKER_BUNDLE_ID[config=Release] = org.torproject.orbot.ContentBlocker
-STATUS_WIDGET_BUNDLE_ID[config=Release] = org.torproject.orbot.status
-APP_GROUP[config=Release] = group.org.torproject.orbot
-DEVELOPMENT_TEAM[config=Release] =
+APP_BUNDLE_ID[config=Release] = com.telquel.ios.testing1
+EXT_BUNDLE_ID[config=Release] = com.telquel.ios.testing1.ext
+CONTENT_BLOCKER_BUNDLE_ID[config=Release] = com.telquel.ios.testing1.ContentBlocker
+STATUS_WIDGET_BUNDLE_ID[config=Release] = com.telquel.ios.testing1.status
+APP_GROUP[config=Release] = group.com.telquel.ios.testing1
+DEVELOPMENT_TEAM[config=Release] = MV2983RC78
 CODE_SIGN_IDENTITY[config=Release] =
 APP_PROVISIONING_PROFILE_SPECIFIER[config=Release] =
 EXT_PROVISIONING_PROFILE_SPECIFIER[config=Release] =
