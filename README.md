@@ -1,4 +1,4 @@
-#  Orbot iOS / macOS
+#  Stealth Surfer VPN iOS / macOS
 
 Torifies your iOS / macOS device running iOS 15 or macOS 11 and newer.
 
@@ -23,16 +23,9 @@ Provides a "VPN" which tunnels all your device network traffic through Tor.
 - [Homebrew](https://brew.sh)
 
 ```sh
-brew install cocoapods bartycrouch fastlane rustup-init automake autoconf libtool gettext
-rustup-init -y
-rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios aarch64-apple-darwin x86_64-apple-darwin
-cargo install cbindgen
-git clone git@github.com:guardianproject/orbot-ios.git
-cd orbot-ios
-git submodule update --init --recursive
-pod update
-leaf-ffi-orbot/build-leaf.sh
-open Orbot.xcworkspace
+git clone git@github.com:Evo4/StealthSurferVPN-apple.git
+cd StealthSurferVPN-apple
+bash project_bootstrap.sh
 ```
 
 Configure your code signing credentials in [`Config.xcconfig`](Shared/Config.xcconfig)!
