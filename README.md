@@ -9,8 +9,6 @@
 
 Torifies your iOS / macOS device running iOS 15 or macOS 11 and newer.
 
-Find links to official releases, beta tests etc. here: https://orbot.app/download
-
 Provides a "VPN" which tunnels all your device network traffic through Tor.
 
 - Supports Obfs4 and Snowflake bridges, fully configurable.
