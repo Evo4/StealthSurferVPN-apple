@@ -1,5 +1,12 @@
 #  Stealth Surfer VPN iOS / macOS
 
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
+[![Platform](https://img.shields.io/cocoapods/p/ios?color=blue)](https://developer.apple.com/iphone/index.action)
+![swift](https://img.shields.io/badge/swift-5.0-orange?style=flat)
+![platform](https://img.shields.io/badge/platform-iOS%20%7C%20macOS-green?style=flat)
+![license](https://img.shields.io/badge/license-MIT-silver?style=flat)
+
 Torifies your iOS / macOS device running iOS 15 or macOS 11 and newer.
 
 Find links to official releases, beta tests etc. here: https://orbot.app/download
