@@ -10,12 +10,7 @@ echo "Bootstrapping Stealth Surfer VNP project."
 # -------------------- Native libraries -----------------------
 # making sure Homebrew package manager is installed
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install cocoapods bartycrouch fastlane rustup-init automake autoconf libtool gettext swiftlint
-
-# Rust setup
-rustup-init -y
-rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios aarch64-apple-darwin x86_64-apple-darwin
-cargo install cbindgen
+brew install cocoapods bartycrouch fastlane automake autoconf libtool gettext swiftlint
 
 git submodule update --init --recursive
 pod update

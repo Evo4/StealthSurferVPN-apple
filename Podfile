@@ -4,7 +4,8 @@ use_frameworks!
 
 def tor
   pod 'Tor/GeoIP',
-  '~> 407.13'
+   '~> 407.13'
+  #:podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
   # :path => '../Tor.framework'
 end
 
@@ -55,13 +56,11 @@ target 'TorVPN Mac' do
   iptproxy
 end
 
-# Fix Xcode 14 code signing issues with bundles.
-# See https://github.com/CocoaPods/CocoaPods/issues/8891#issuecomment-1249151085
 post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
       target.build_configurations.each do |config|
-          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
       end
     end
   end
