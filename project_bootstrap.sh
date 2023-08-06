@@ -12,6 +12,12 @@ echo "Bootstrapping Stealth Surfer VNP project."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install cocoapods bartycrouch fastlane automake autoconf libtool gettext swiftlint
 
+# -------------------- Frameworks download -----------------------
+cd leaf
+bash download_leaf.sh
+cd ..
+
+# -------------------- Pod install -----------------------
 git submodule update --init --recursive
 pod update
 open Orbot.xcworkspace
