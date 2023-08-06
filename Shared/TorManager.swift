@@ -209,6 +209,7 @@ class TorManager {
 					self?.torController?.removeObserver(self?.establishedObs)
 					self?.torController?.removeObserver(self?.progressObs)
 
+					// TASK: getting socks and dns
 					self?.torController?.getInfoForKeys(["net/listeners/socks", "net/listeners/dns"]) { response in
 						guard let socksAddr = response.first, !socksAddr.isEmpty else {
 							self?.status = .stopped
